@@ -20,16 +20,27 @@ package com.phoenixjcam.collection.recursion;
 public class RecursionExample
 {
 
+	// great example of how the stack structure is working 
 	private static class Factorial
 	{
 		public static int calculate(int num)
 		{
-			int result;
+			int result = 0;
 
 			if (num == 0)
+			{
+				System.out.println("if (num == 0) " + num);
 				return 1;
-
+			}
+			
+			System.out.println("result " + result);
+			System.out.println("num " + num);
+			
 			result = calculate(num - 1) * num;
+			
+			System.out.println("result " + result);
+			System.out.println("num " + num);
+			
 
 			return result;
 		}
