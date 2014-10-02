@@ -5,6 +5,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
+/**
+ * Different dealing with console input 
+ * 
+ * @author Bart88
+ *
+ */
 public class ConsoleReader
 {
 	private static void bufferReader()
