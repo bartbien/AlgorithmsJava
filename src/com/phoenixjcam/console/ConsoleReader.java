@@ -39,21 +39,43 @@ public class ConsoleReader
 	private static void scannerLoop()
 	{
 		Scanner in = new Scanner(System.in);
-		
+
 		String key;
-		
+
 		do
 		{
 			key = in.nextLine();
 			System.out.println("typed: " + key);
 		}
 		while (key != "q");
+
+	}
+
+	/**
+	 * 0 to exit
+	 */
+	private static void scannerIntLoop()
+	{
+		Scanner in = new Scanner(System.in);
 		
+		int key;
+		
+		System.out.println("Start typing ");
+		
+		do
+		{
+			key = in.nextInt();
+			
+			System.out.println("typed: " + key);
+		}
+		while (key != 0);
+		
+		System.out.println("Ended with value: " + key);
 	}
 
 	public static void main(String[] args)
 	{
-		scannerLoop();
+		scannerIntLoop();
 	}
 
 }
