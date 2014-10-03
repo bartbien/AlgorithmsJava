@@ -23,15 +23,20 @@ public class RecursionExample
 	// great example of how the stack structure is working 
 	private static class Factorial
 	{
+		
 		public static int calculate(int num)
 		{
 			int result = 0;
 
+			
 			if (num == 0)
-			{
-				System.out.println("if (num == 0) " + num);
 				return 1;
-			}
+			
+//			if (num == 0)
+//			{
+//				System.out.println("if (num == 0) " + num);
+//				return 1;
+//			}
 			
 			System.out.println("result " + result);
 			System.out.println("num " + num);
@@ -64,7 +69,7 @@ public class RecursionExample
 	public static void main(String args[])
 	{
 		
-		System.out.println(factorial(5));
+		//System.out.println(factorial(5));
 		
 		
 		int res = Factorial.calculate(5);
