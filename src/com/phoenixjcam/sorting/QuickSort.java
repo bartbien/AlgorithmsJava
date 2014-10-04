@@ -9,7 +9,7 @@ public class QuickSort
 		int i = left, j = right;
 		int tmp;
 		int pivot = arr[(left + right) / 2];
-		
+
 		while (i <= j)
 		{
 			while (arr[i] < pivot)
@@ -43,7 +43,7 @@ public class QuickSort
 			quickSort(arr, index, right);
 	}
 
-	public static void main(String[] args)
+	public static void quickSort2()
 	{
 		Random randomizer = new Random();
 		int[] data = new int[100];
@@ -53,13 +53,18 @@ public class QuickSort
 			data[i] = randomizer.nextInt(100);
 			System.out.print(", " + data[i]);
 		}
-		
+
 		quickSort(data, 0, data.length - 1);
-		
+
 		System.out.println();
 
 		for (int i = 0; i < data.length; ++i)
 			System.out.print(", " + data[i]);
+	}
+
+	public static void main(String[] args)
+	{
+
 	}
 
 }
