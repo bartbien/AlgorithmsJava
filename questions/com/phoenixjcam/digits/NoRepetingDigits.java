@@ -40,6 +40,7 @@ public class NoRepetingDigits
 
 	public static void main(String[] args)
 	{
+		// change this number to million
 		noRepeat(100);
 	}
 

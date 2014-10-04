@@ -17,3 +17,7 @@ Answer: com.phoenixjcam.recursion.Fibonacci;
   and for the multiples of five print "Buzz". 
   For numbers which are multiples of both three and five print "FizzBuzz". 
   Answer: com.phoenixjcam.digits.PrintNumber;
+  
+  
+Exercise:
+http://algs4.cs.princeton.edu/home/
