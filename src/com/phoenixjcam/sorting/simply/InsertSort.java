@@ -1,4 +1,4 @@
-package com.phoenixjcam.sorting;
+package com.phoenixjcam.sorting.simply;
 
 import java.util.Arrays;
 
@@ -40,6 +40,8 @@ public class InsertSort
 
 	public static void main(String[] args)
 	{
+		System.out.println("InsertSort");
+		
 		int[] intArr =
 		{ 4, 8, 0, 6, 1, 9, 7, 5, 3, 2 };
 
