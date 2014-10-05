@@ -1,4 +1,4 @@
-package com.phoenixjcam.sorting;
+package com.phoenixjcam.sorting.variants;
 
 import java.util.Random;
 
