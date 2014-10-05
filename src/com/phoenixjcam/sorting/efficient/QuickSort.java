@@ -1,6 +1,6 @@
-package com.phoenixjcam.sorting;
+package com.phoenixjcam.sorting.efficient;
 
-import java.util.Random;
+import java.util.Arrays;
 
 public class QuickSort
 {
@@ -43,28 +43,19 @@ public class QuickSort
 			quickSort(arr, index, right);
 	}
 
-	public static void quickSort2()
-	{
-		Random randomizer = new Random();
-		int[] data = new int[100];
-
-		for (int i = 1; i < data.length; ++i)
-		{
-			data[i] = randomizer.nextInt(100);
-			System.out.print(", " + data[i]);
-		}
-
-		quickSort(data, 0, data.length - 1);
-
-		System.out.println();
-
-		for (int i = 0; i < data.length; ++i)
-			System.out.print(", " + data[i]);
-	}
-
 	public static void main(String[] args)
 	{
+		System.out.println("QuickSort");
 
+		int[] intArr =
+		{ 4, 8, 0, 6, 1, 9, 7, 5, 3, 2 };
+
+		System.out.println("before " + Arrays.toString(intArr));
+
+		quickSort(intArr, 0, intArr.length - 1);
+		// insertionSort2(intArr);
+
+		System.out.print("after  " + Arrays.toString(intArr));
 	}
 
 }
