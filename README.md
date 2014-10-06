@@ -17,6 +17,14 @@ Questions:
   and for the multiples of five print "Buzz". 
   For numbers which are multiples of both three and five print "FizzBuzz". 
    Answer: PrintNumber class
+   
+4. We have 12 coins same in size and shape and also weight. But among these, 
+ one coin which has same size and shape, but not in weight and we can't know that this coin was lighter or heavier.
+ We must decide which coin was lighter or heavier among these 12 coins in 4 times of weighting with scale.
+ 	2 Answer: http://mathcentral.uregina.ca/QQ/database/QQ.09.09/h/eden1.html
+ 	
+5.
+
 
 Answers:
  questions folder  

@@ -1,4 +1,4 @@
-package com.phoenixjcam.searching;
+package com.phoenixjcam.searching.binary;
 
 import java.util.Arrays;
 import java.util.Scanner;
