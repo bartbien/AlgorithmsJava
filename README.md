@@ -23,11 +23,23 @@ Questions:
  We must decide which coin was lighter or heavier among these 12 coins in 4 times of weighting with scale.
  	2 Answer: http://mathcentral.uregina.ca/QQ/database/QQ.09.09/h/eden1.html
  	
-5.
+5. Backtracking algorithm to solve sudoku problem.
+   com.phoenixjcam.backtracking.sudoku.Sudoku;
+   
+6. Usage of base64 encoding to encode picture inside htm file.
+	com.phoenixjcam.base64
+	
+7. Apply binary search to play the game of twenty questions. 
+	( We pick number from 0 to 100 and algorithm need to guess in small amount of questions what's the number.)
+	Question sounds: "Is it less than " + guessedNumber "
+	com.phoenixjcam.searching.binary.TwentyQuestions
+	
+8. 
 
+	
 
 Answers:
- questions folder  
+ questions or src folder in this repository
   
 Exercise:
 http://algs4.cs.princeton.edu/home/
