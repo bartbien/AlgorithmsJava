@@ -1,4 +1,4 @@
-package com.phoenixjcam.recursion;
+package com.phoenixjcam.numbers.recursion;
 
 /**
  *  factorial(5)  <br>
