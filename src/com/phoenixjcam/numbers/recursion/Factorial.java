@@ -17,11 +17,11 @@ package com.phoenixjcam.numbers.recursion;
  * @author Bart88
  *
  */
-public class RecursionExample
+public class Factorial
 {
 
 	// great example of how the stack structure is working 
-	private static class Factorial
+	private static class FactorialCalculation
 	{
 		
 		public static int calculate(int num)
@@ -72,7 +72,7 @@ public class RecursionExample
 		//System.out.println(factorial(5));
 		
 		
-		int res = Factorial.calculate(5);
+		int res = FactorialCalculation.calculate(5);
 
 		System.out.println("Factorial of 5 = " + res);
 
