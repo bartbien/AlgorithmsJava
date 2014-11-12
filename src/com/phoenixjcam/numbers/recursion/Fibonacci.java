@@ -46,7 +46,7 @@ public class Fibonacci
 
 	public static void main(String[] args)
 	{
-		int numb = 5;
+		int numb = 8;
 
 		for (int i = 1; i <= numb; i++)
 			System.out.println(i + ": " + fib2(i));
