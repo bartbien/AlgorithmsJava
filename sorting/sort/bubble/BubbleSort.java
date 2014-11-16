@@ -1,4 +1,4 @@
-package com.phoenixjcam.sorting.variants;
+package sort.bubble;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.phoenixjcam.sorting.efficient;
+package sort.quick;
 
 import java.util.Arrays;
 

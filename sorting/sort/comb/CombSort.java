@@ -1,4 +1,4 @@
-package com.phoenixjcam.sorting.variants;
+package sort.comb;
 
 import java.util.Arrays;
 
