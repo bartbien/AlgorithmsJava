@@ -1,4 +1,4 @@
-package com.phoenixjcam.searching.binary;
+package search.binary;
 
 import java.util.Scanner;
 
@@ -26,7 +26,7 @@ import java.util.Scanner;
  * @author Bart88
  *
  */
-public class TwentyQuestions
+public class GameTwentyQuestions
 {
 	// recursion problem
 	public static int search(int min, int max)

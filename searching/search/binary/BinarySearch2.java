@@ -1,5 +1,4 @@
-package com.phoenixjcam.searching.binary;
-
+package search.binary;
 
 public class BinarySearch2
 {
@@ -17,14 +16,14 @@ public class BinarySearch2
 		// Arrays.sort(intArray);
 
 		/**
-		 * first index = 0;
-		 * last index = 19;
+		 * first index = 0; last index = 19;
 		 */
 		int intArray[] =
 		{ 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 17, 18, 19, 20, 21, 22, 24, 27, 28, 29 };
 
-		
-		int key = 29;
+		System.out.println("Size of box numbers[0 - " + (intArray.length - 1) + "];");
+
+		int key = 27;
 
 		search(key, intArray);
 
