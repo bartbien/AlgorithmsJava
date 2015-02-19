@@ -34,7 +34,10 @@ Questions:
 	Question sounds: "Is it less than " + guessedNumber "
 	com.phoenixjcam.searching.binary.TwentyQuestions
 	
-8. 
+8.  Phone interview question: You have a collection of arrays
+      with length 10. Every 2 elements represent a domino(0,1; 2, 3; 3,4,...i and i + 1 one domino).
+      Write a function that gets an array as parameter(with length 10) and returns true if given array exists in your collection,
+      false otherwise. You are free to use any data structure to store arrays(For example I used HashSet of arrays).
 
 	
 
